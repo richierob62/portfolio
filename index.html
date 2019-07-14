@@ -52,13 +52,12 @@
 
       <!-- One -->
       <section id="one" class="wrapper style-one spotlights">
-        <section style="height: 482px;">
+        <section id="one-a">
           <img
             id="jamaica"
             src="images/jamaica.jpg"
             alt=""
             data-position="center center"
-            style="height: 100%;"
           />
           <div class="content">
             <div class="inner">
@@ -72,42 +71,26 @@
           </div>
         </section>
 
-        <section style="height: 482px;">
-          <div
-            class="content"
-            style="display: flex; flex-direction: row; width: 100%; padding: 0; align-items: center;"
-          >
-            <div class="inner" style="padding: 4rem; flex: 1;">
+        <section id="one-b">
+          <div class="content" id="one-b-content">
+            <div class="inner" id="one-b-inner">
               <h2>Did Undergrad at McGill</h2>
-              <p style="margin-bottom: 0;">
+              <p id="one-b-para">
                 The plan was to become a doctor, but the spark lit by my first
                 computer (a Sinclair ZX81 with all of 64K RAM) quickly saw me
                 switching to Engineering where I learned Fortran. I graduated
                 with a B.Eng. (Mechanical).
               </p>
             </div>
-            <div
-              style="position: relative; height: 100%; width: 55%;"
-              id="mcgill"
-            >
-              <img
-                src="images/mcgill.jpg"
-                alt=""
-                data-position="top center"
-                style="height: 100%;"
-              />
+            <div id="mcgill">
+              <img src="images/mcgill.jpg" alt="" data-position="top center" />
             </div>
           </div>
         </section>
 
-        <section style="height: 482px;">
-          <div style="height: 100%;">
-            <img
-              src="images/corporate.jpg"
-              alt=""
-              data-position="25% 25%"
-              style="height: 90%;"
-            />
+        <section id="one-c">
+          <div id="one-c-img-holder">
+            <img src="images/corporate.jpg" alt="" data-position="25% 25%" />
           </div>
           <div class="content">
             <div class="inner">
@@ -125,8 +108,8 @@
           </div>
         </section>
 
-        <section style="height: 482px;">
-          <div class="content" style="flex: 1;">
+        <section id="one-d">
+          <div class="content" id="ond-d-content">
             <div class="inner">
               <h2>Software Engineer - Full Time</h2>
               <p>
@@ -141,41 +124,25 @@
               <li><a href="#two" class="button scrolly">My Projects</a></li>
             </ul>
           </div>
-          <div
-            style="background-color: #32254f;
-									width: 33%;
-									margin: 4rem;"
-          >
-            <img
-              src="images/matrix.jpg"
-              alt=""
-              data-position="25% 25%"
-              style="height: 100%; mix-blend-mode: screen"
-            />
+          <div id="one-d-img-holder">
+            <img src="images/matrix.jpg" alt="" data-position="25% 25%" />
           </div>
         </section>
       </section>
 
       <!-- Two -->
       <section id="two" class="wrapper style2 spotlights">
-        <section style="display: flex; align-items: center; padding: 4rem;">
-          <div style="width: 40%; flex: 1;">
+        <section id="two-a">
+          <div id="two-a-img-holder">
             <a href="https://trolle-app.herokuapp.com">
               <img
                 src="/images/trolle.gif"
                 alt=""
                 data-position="center center"
-                style="width: 100%;"
               />
             </a>
           </div>
-          <div
-            class="content"
-            style="flex: 1;
-									padding: 0;
-									margin-left: 4rem;
-									margin-right: 4rem;"
-          >
+          <div class="content" id="two-a-content">
             <div class="inner">
               <h2><a href="https://trolle-app.herokuapp.com">Trolle</a></h2>
               <p>
@@ -188,7 +155,7 @@
                 component-based CSS styling to maintain a cohesive theme while
                 keeping component code modular.
               </p>
-              <ul class="actions" style="margin-bottom: 0;">
+              <ul class="actions" id="two-a-actions">
                 <li>
                   <a href="https://trolle-app.herokuapp.com" class="button"
                     >LIVE SITE</a
@@ -203,14 +170,8 @@
             </div>
           </div>
         </section>
-        <section style="display: flex; align-items: center; padding: 4rem;">
-          <div
-            class="content"
-            style="flex: 1;
-									padding: 0;
-									margin-left: 4rem;
-									margin-right: 4rem;"
-          >
+        <section id="two-b">
+          <div class="content" id="two-b-content">
             <div class="inner">
               <h2>
                 <a href="https://eventlight.herokuapp.com/#/">EventLight</a>
@@ -224,7 +185,7 @@
                 server-side authentication using JSON Web Tokens, allowing for
                 persistent login even after refresh.
               </p>
-              <ul class="actions" style="margin-bottom: 0;">
+              <ul class="actions" id="two-b-actions">
                 <li>
                   <a href="https://eventlight.herokuapp.com/#/" class="button"
                     >LIVE SITE</a
@@ -240,39 +201,27 @@
               </ul>
             </div>
           </div>
-          <div style="width: 40%; flex: 1;">
+          <div id="two-b-img-holder">
             <a href="https://eventlight.herokuapp.com/#/">
               <img
                 src="images/eventlight.png"
                 alt=""
                 data-position="top center"
-                style="width: 100%;"
               />
             </a>
           </div>
         </section>
-        <section style="display: flex; align-items: center; padding: 4rem;">
-          <div
-            style="flex: 1;
-                  height: 100%;
-                  text-align: center;"
-          >
+        <section id="two-c">
+          <div id="two-c-img-holder">
             <a href="https://richierob62.github.io/flipmaster/">
               <img
                 src="images/flipmaster.png"
                 alt=""
                 data-position="top center"
-                style="height: 100%; max-height: 400px;"
               />
             </a>
           </div>
-          <div
-            class="content"
-            style="flex: 1;
-									padding: 0;
-									margin-left: 4rem;
-									margin-right: 4rem;"
-          >
+          <div class="content" id="two-c-content">
             <div class="inner">
               <h2>
                 <a href="https://richierob62.github.io/flipmaster/"
@@ -286,7 +235,7 @@
                 in the browser. I also incorporated sprite sheets for fast
                 graphic switching and smooth play. Give it a try!
               </p>
-              <ul class="actions" style="margin-bottom: 0;">
+              <ul class="actions" id="two-c-actions">
                 <li>
                   <a
                     href="https://richierob62.github.io/flipmaster/"
@@ -305,14 +254,8 @@
             </div>
           </div>
         </section>
-        <section style="display: flex; align-items: center; padding: 4rem;">
-          <div
-            class="content"
-            style="flex: 1;
-									padding: 0;
-									margin-left: 4rem;
-									margin-right: 4rem;"
-          >
+        <section id="two-d">
+          <div class="content" id="two-d-content">
             <div class="inner">
               <h2>
                 <a href="https://eventlight.herokuapp.com/#/">JustDecide</a>
@@ -325,7 +268,7 @@
                 queries. JustDecide was designed as a mobile-first responsive
                 app, allowing for easy use on a mobile device.
               </p>
-              <ul class="actions" style="margin-bottom: 0;">
+              <ul class="actions" id="two-d-actions">
                 <li>
                   <a href="https://eventlight.herokuapp.com/#/" class="button"
                     >LIVE SITE</a
@@ -339,42 +282,27 @@
               </ul>
             </div>
           </div>
-          <div
-            style="flex: 1;
-                    text-align: center;"
-          >
+          <div id="two-d-img-holder">
             <a href="https://eventlight.herokuapp.com/#/">
               <img
                 src="images/just-decide.png"
                 alt=""
                 data-position="top center"
-                style="height: 100%"
               />
             </a>
           </div>
         </section>
-        <section style="display: flex; align-items: center; padding: 4rem;">
-          <div
-            style="flex: 1;
-                  height: 100%;
-                  text-align: center;"
-          >
+        <section id="two-e">
+          <div id="two-e-img-holder">
             <a href="https://reservedock.com/">
               <img
                 src="images/reservedock.png"
                 alt=""
                 data-position="top center"
-                style="height: 100%;"
               />
             </a>
           </div>
-          <div
-            class="content"
-            style="flex: 1;
-									padding: 0;
-									margin-left: 4rem;
-									margin-right: 4rem;"
-          >
+          <div class="content" id="two-e-content">
             <div class="inner">
               <h2>
                 <a href="https://reservedock.com/">ReserveDock</a>
@@ -388,7 +316,7 @@
                 for the UI and state management, and Laravel/PHP for the API. It
                 used a MySQL database.
               </p>
-              <ul class="actions" style="margin-bottom: 0;">
+              <ul class="actions" id="two-e-actions">
                 <li>
                   <a href="https://reservedock.com/" class="button"
                     >LIVE SITE</a
@@ -402,8 +330,8 @@
 
       <!-- Three -->
       <section id="three" class="wrapper style3 fade-up">
-        <div class="inner" style="display: flex;">
-          <div style="flex: 1;">
+        <div class="inner" id="three-inner">
+          <div id="three-content">
             <h2>My Tech</h2>
             <p>
               Technology is always changing, and so must our knowledge of (and
@@ -419,12 +347,11 @@
               </li>
             </ul>
           </div>
-          <div class="features" style="width: 60%; margin-left: 4rem;">
+          <div class="features" id="three-img-holder">
             <img
               src="/images/techs.jpg"
               alt="JavaScript React Redux Node Express Apollo GraphQL MongoDB PostgreSQL MySQL Ruby Rails Docker PHP"
               data-position="top center"
-              style="width: 100%;"
             />
           </div>
         </div>
@@ -487,11 +414,7 @@
                 </li>
                 <li>
                   <h3>Social</h3>
-                  <ul
-                    class="icons"
-                    style="display: flex;
-                            flex-direction: column;"
-                  >
+                  <ul class="icons" id="social">
                     <li>
                       <a
                         href="https://www.linkedin.com/in/richardwaynerobinson/"
