@@ -4120,8 +4120,12 @@ body.is-preload #sidebar nav ul li {
   width: 100%;
 }
 
-#two-b-img-holder img {
+#two-b-img-holder {
   width: 50%;
+}
+
+#two-b-img-holder img {
+  width: 100%;
 }
 
 #two-c-img-holder {
