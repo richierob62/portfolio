@@ -4254,6 +4254,7 @@ body.is-preload #sidebar nav ul li {
   #two-b-img-holder {
     order: -1;
     margin-bottom: 1rem;
+    width: 100%;
   }
 
   #two-c-img-holder {
